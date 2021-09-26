@@ -24,6 +24,8 @@
 <img src="./.assets/home.png"></img>
 <img src="./.assets/video.png"></img>
 <img src="./.assets/curiosy.png"></img>
+<img src="./.assets/mobile.png"></img>
 <img src="./.assets/formularios.png"></img>
+<img src="./.assets/form_mobile.png"></img>
 
 
