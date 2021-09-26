@@ -1,0 +1,193 @@
+@import url(./reset.css);
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 55px;
+    width: 100%;
+    background-color: #0000ff;
+    padding: 0 20px;
+    color: #ffffff;
+    position: fixed;
+    z-index: 10;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.logo>img {
+    border-radius: 10px;
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+nav>ul {
+    display: inline-flex;
+}
+
+nav>ul>li {
+    display: flex;
+    align-items: center;
+}
+
+nav>ul>li>a {
+    padding: 0 10px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+nav>ul>li>a:hover {
+    background-color: #00ffff;
+    font-weight: 900;
+    color: #000000;
+    cursor: pointer;
+}
+
+nav ul:nth-child(2) {
+    display: none;
+}
+
+#home {
+    height: 100vmin;
+    padding-top: 70px;
+    background-image: url('../img/salvador_02.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#home>p {
+    background-color: #ffffffb3;
+    color: #000;
+    font-size: 20px;
+    width: 550px;
+    position: relative;
+    border-radius: 10px;
+    left: 10px;
+    padding: 10px;
+    text-align: justify;
+}
+
+#videos {
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+}
+
+#curiosidades {
+    background-color: khaki;
+    padding: 70px;
+}
+
+#curiosidades>ul {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+
+footer {
+    background-color: darkblue;
+    height: 100px;
+    text-align-last: center;
+    padding-top: 10px;
+}
+
+footer>a>img {
+    width: 45px;
+    height: 45px;
+    margin-left: 10px;
+}
+
+footer>div {
+    color: #fff;
+}
+
+@media (max-width: 640px) {
+
+    .logo {
+        font-size: 16px;
+    }
+
+    .logo img {
+        display: none;
+    }
+
+    nav ul:nth-child(1) {
+        display: none;
+    }
+
+    .sub-menu i {
+        font-size: 30px;
+    }
+
+    .drop-down .sub-menu {
+        position: relative;
+    }
+
+    .drop-down .sub-menu ul {
+        position: absolute;
+        left: -4rem;
+        top: 40px;
+        background-color: #0000ff;
+        display: none;
+        transition: all 1s;
+    }
+
+    .drop-down .sub-menu:hover ul,
+    .drop-down .sub-menu.over ul {
+        display: block;
+    }
+
+
+    .sub-menu ul li {
+        width: 130px;
+        height: 3rem;
+        display: flex;     
+        align-items: center;
+    }
+
+    .sub-menu ul li a {
+        text-decoration: none;
+        width: 100%;
+        height: 40px;
+        color: #fff;
+        padding: 10px;
+    }
+
+    .sub-menu ul li a:hover {
+        background-color: #00ffff;
+        color: #000;
+        font-weight: 900;
+    }
+
+    #home {
+        height: 100vmax;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        /* justify-content: center; */
+    }
+
+    #home p {
+        margin-top: 10px;
+        width: 340px;
+        height: 500px;
+        font-size: 14px;
+    }
+  
+    iframe{
+        width: 300px;
+        height: 200px;
+    }
+
+}
