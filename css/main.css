@@ -50,6 +50,7 @@ nav>ul>li>a:hover {
     cursor: pointer;
 }
 
+
 nav ul:nth-child(2) {
     display: none;
 }
@@ -123,6 +124,9 @@ footer>div {
     nav ul:nth-child(1) {
         display: none;
     }
+    nav ul:nth-child(2) {
+        display: block;
+    }
 
     .sub-menu i {
         font-size: 30px;
@@ -135,7 +139,7 @@ footer>div {
     .drop-down .sub-menu ul {
         position: absolute;
         left: -4rem;
-        top: 40px;
+        top: 27px;
         background-color: #0000ff;
         display: none;
         transition: all 1s;
@@ -175,7 +179,6 @@ footer>div {
         background-position: center;
         background-size: cover;
         display: flex;
-        /* justify-content: center; */
     }
 
     #home p {
