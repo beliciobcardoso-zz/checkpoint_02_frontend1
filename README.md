@@ -19,7 +19,7 @@
 <li>Você tem total liberdade para animar e colorir o seu formulário, então use e abuse da sua criatividade.</li>
 </ol>
 
-<p>Confirar o projeto hospedado no GitHub Pages <a href="https://beliciobcardoso.github.io/checkpoint_02_frontend1/" target="_blank"> aqui</a>!</p>
+<p>Confirar o projeto hospedado no GitHub Pages <a href="https://beliciobcardoso.github.io/checkpoint_02_frontend1/" target="_blank" rel="noreferrer noopener"> aqui</a>!</p>
 
 <img src="./.assets/home.png"></img>
 <img src="./.assets/video.png"></img>
