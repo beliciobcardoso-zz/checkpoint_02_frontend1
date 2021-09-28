@@ -17,6 +17,7 @@ form {
 
 fieldset:nth-child(1) {
     padding: 1rem .5rem;
+    background-color: #6e6d6d;
 }
 
 fieldset>fieldset {
@@ -101,7 +102,7 @@ select {
     font-size: 1.6rem;
     width: 3rem;
     height: 3rem;
-    color: #0707c7;
+    color: #6e6d6d;
 }
 
 .icon i:hover{
